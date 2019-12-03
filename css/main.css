@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+
+}
+.main-heading{
+  width: 100%;
+  text-align: center;
+
+}
+.search-div{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+
+}
+.search-box{
+  width: 70%;
+}
+.column{
+
+  /* flex-basis: 50%; */
+  width: 50%;
+
+}
+img{
+  width: 100%;
+  padding: 0 1em;
+  margin-bottom: 0.5em;
+}
